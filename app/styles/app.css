@@ -1,0 +1,55 @@
+*, *:after { box-sizing: border-box; }
+body {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  font-family: system-ui;
+  font-size: 100%;
+  line-height: 1.5;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: 0;
+}
+header {
+  background-color: #0a0a55;
+  color: white;
+  margin: 0 auto;
+  padding: 1rem;
+  width: 100%;
+}
+header h1 {
+  margin: 0 auto;
+  padding: 0;
+  line-height: 1;
+  text-align: center;
+}
+main {
+  flex: 1;
+  padding: 0 2rem;
+}
+@media screen and (min-width: 60em) {
+  main {
+    padding: 0 20%;
+  }
+}
+main p.intro {
+  font-size: 1.25rem;
+}
+footer {
+  background-color: #0a0a55;
+  color: white;
+  padding: 1rem;
+}
+footer p {
+  margin: 0 auto;
+}
+footer p a { 
+  color: whitesmoke;
+}
+footer p a:link {
+  color: whitesmoke;
+}
+footer p a:visited {
+  color: aliceblue;
+}
