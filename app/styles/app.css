@@ -19,18 +19,18 @@ header {
   width: 100%;
 }
 header h1 {
+  line-height: 1;
   margin: 0 auto;
   padding: 0;
-  line-height: 1;
   text-align: center;
 }
 main {
   flex: 1;
-  padding: 0 2rem;
+  padding: 0 2rem 2rem;
 }
 @media screen and (min-width: 60em) {
   main {
-    padding: 0 20%;
+    padding: 0 20% 2rem;
   }
 }
 main p.intro {
