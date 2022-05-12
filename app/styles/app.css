@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@500;900&display=swap');
 
 *, *:after { box-sizing: border-box; }
+
 body {
   background-color: white;
   color: black;
@@ -17,16 +18,16 @@ body {
 
 header, main {
   padding: 0 1rem;
-  /* width: 80ch; */
+  width: 80ch;
   margin: 0 auto;
-  /* max-width: 100%; */
+  max-width: 100%;
 }
 
-@media screen and (min-width: 100ch) {
+/* @media screen and (min-width: 100ch) {
   header, main, footer {
     padding: 0 calc((100% - 80ch) / 2);
   }
-}
+} */
 
 header {
   background-color: #0a0a55;
