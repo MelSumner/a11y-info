@@ -15,8 +15,11 @@ body {
   padding: 0;
 }
 
-header, main, footer {
-  padding: 0 0.75rem;
+header, main {
+  padding: 0 1rem;
+  width: 80ch;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 @media screen and (min-width: 100ch) {
@@ -77,8 +80,7 @@ main p.intro {
 footer {
   background-color: #0a0a55;
   color: white;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
+  padding: 1rem;
 }
 footer p {
   margin: 0 auto;
